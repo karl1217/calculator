@@ -1,0 +1,67 @@
+.calculator-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: end;
+    height: 600px;
+    width: 375px;
+    border-radius: 50px;
+}
+
+.other, .number, .operator, .zero {
+    border: none;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.zero {
+    margin-bottom: 20px;
+}
+
+#zero-button {
+    width: 150px;
+    text-align: start;
+    padding-left: 25px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero-button {
+    background-color: rgba(97, 97, 97, 0.799);
+    color: white;
+    font-size: 30px;
+}
+
+#add, #minus, #multiply, #divide, #equals, #decimal {
+    background-color: rgba(255, 179, 0, 0.862);
+    color: white;
+    font-size: 35px;
+}
+
+#clear, #plus-minus, #percent {
+    font-size: 25px;
+}
+
+.screen {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 50px;
+    width: 300px;
+    height: 70px;
+    text-align: end;
+}
+
+#zero-button:hover, #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, 
+#six:hover, #seven:hover, #eight:hover, #nine:hover, #clear:hover, #plus-minus:hover, #percent:hover,
+#add:hover, #minus:hover, #multiply:hover, #divide:hover, #decimal:hover, #equals:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
